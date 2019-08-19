@@ -1,0 +1,10 @@
+name: Issue Checklist Checker
+on: push
+jobs:
+  build:
+    name: Check Checklist
+    runs-on: ubuntu-latest    
+    steps:
+    - uses: "adamzolyak/checklist-checker-action@master"
+    - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
