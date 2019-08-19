@@ -1,5 +1,5 @@
 name: Issue Checklist Checker
-on: push
+on: issues
 jobs:
   build:
     name: Check Checklist
