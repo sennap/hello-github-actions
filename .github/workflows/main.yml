@@ -9,3 +9,4 @@ jobs:
     - uses: ./action-a
       env:
         MY_NAME: "Senna"
+        MY_COMPANY: "GitHub"
