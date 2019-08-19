@@ -8,4 +8,5 @@ jobs:
     - uses: actions/checkout@master
     - uses: ./action-a
       env:
-        MY_NAME: "Mona"
+        MY_NAME: "Senna"
+        MY_COMPANY: "GitHub"
