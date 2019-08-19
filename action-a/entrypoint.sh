@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-sh -c "echo Hello world my name is $MY_NAME"
+sh -c "echo Hey there, my name is $MY_NAME and I work at $MY_COMPANY"
